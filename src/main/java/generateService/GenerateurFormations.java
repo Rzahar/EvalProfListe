@@ -7,7 +7,9 @@ import models.Formation;
 
 
 public class GenerateurFormations {
-
+/*
+ * Class permettant de générer 5 formations pour nourir notre serveur  
+ */
 		public static GenerateurFormations instances = null;
 		private List<Formation> formations = new ArrayList<Formation>();
 		

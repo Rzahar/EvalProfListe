@@ -1,6 +1,7 @@
 package models;
 
 public class Formation {
+
 	private String titre;
 	private String programme;
 	private int nbEleve;

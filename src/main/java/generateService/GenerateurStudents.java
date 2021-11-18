@@ -8,7 +8,9 @@ import models.Student;
 
 
 public class GenerateurStudents {
-
+	/*
+	 * Class permettant de générer 5 étudiants pour nourir notre serveur  
+	 */
 		public static GenerateurStudents instances = null;
 		private List<Student> students = new ArrayList<Student>();
 		private List<Formation> formations = new ArrayList<Formation>();
